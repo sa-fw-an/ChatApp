@@ -7,6 +7,7 @@ Welcome to my Chat App! This project is a real-time chat application built using
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Screenshots](#screenshots)
+- [To Run](#to-run)
 - [Acknowledgments](#acknowledgments)
 - [Contact](#contact)
 
@@ -40,9 +41,26 @@ Welcome to my Chat App! This project is a real-time chat application built using
 ## Screenshots
 
 Check out the app
-| Main Menu | Login | Logout | Chat |
+| Main Menu | Login | Themes | Settings |
 |---|---|---|---|
+| ![Screenshot 2024-11-29 073230](https://github.com/user-attachments/assets/a31e7711-dc11-47f1-913f-c2240f56743f) | ![Screenshot 2024-11-28 211312](https://github.com/user-attachments/assets/364b16bc-33f0-4623-ab45-c49cf358649d) | ![Screenshot 2024-11-29 073319](https://github.com/user-attachments/assets/acafbbbc-acee-4b38-82f2-90096bea8890) | ![Screenshot 2024-11-29 073306](https://github.com/user-attachments/assets/e139c2ef-a538-4c72-845c-73b9b33e13d7) |
 
+## To Run
+Create a .env file with the following parameters
+```
+MONGODB_URI=...
+PORT=5001
+JWT_SECRET=...
+CLOUDINARY_CLOUD_NAME=...
+CLOUDINARY_API_KEY=...
+CLOUDINARY_API_SECRET=...
+NODE_ENV=production
+```
+Run this in the teminal 
+```bash
+npm run build
+npm run start 
+```
 
 ## Acknowledgments
 
