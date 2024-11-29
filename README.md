@@ -22,7 +22,7 @@ Welcome to my Chat App! This project is a real-time chat application built using
 
 ## Technologies Used
 
-- **Frontend:**
+ **Frontend:**
 
  - React
  - Vite
@@ -30,7 +30,7 @@ Welcome to my Chat App! This project is a real-time chat application built using
  - HTML
  - Tailwind CSS
 
-- **Backend:**
+**Backend:**
 
  - Node.js
  - Express
